@@ -1,0 +1,27 @@
+1) Observe o trecho de código:
+
+int INDICE = 12, SOMA = 0, K = 1;
+
+enquanto K < INDICE faça
+
+{ K = K + 1; SOMA = SOMA + K;}
+
+imprimir(SOMA);
+
+
+
+
+O laço de repetição será executado de K = 1 até K = 11 e será interrompido quando K = 12.
+
+Com a repetição de 11 vezes, o novo valor da variável soma será a soma do valor anterior com o valor de K + 1 pois o valor de K é alterado antes da operação com a variável soma.
+
+Então a variável soma será dada pela expressão 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 + 11 + 12
+sabendo que:
+
+2 + 12 = 14
+3 + 11 = 14
+4 + 10 = 14
+5 + 9 = 14
+6 + 8 = 14
+7
+temos 5 somas no valor de 14 e o número central ( o 7 ) sendo que o resultado final será 5*14 + 7 = 77

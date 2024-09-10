@@ -1,0 +1,52 @@
+5) Dois veículos, um carro e um caminhão, saem respectivamente de cidades opostas pela mesma rodovia. O carro, de Ribeirão Preto em direção a Barretos, a uma velocidade constante de 90 km/h, e o caminhão, de Barretos em direção a Ribeirão Preto, a uma velocidade constante de 80 km/h. Quando eles se cruzarem no percurso, qual estará mais próximo da cidade de Ribeirão Preto?
+
+a) Considerar a distância de 125km entre a cidade de Ribeirão Preto <-> Barretos.
+b) Considerar 3 pedágios como obstáculo e que o carro leva 5 minutos a mais para passar em cada um deles, pois ele não possui dispositivo de cobrança de pedágio.
+c)Explique como chegou no resultado.
+
+
+Considerações:
+
+Referencial de posição 0 na cidade de Ribeirão Preto
+Distância entre cidades: 125Km
+
+Equação parao veículo:
+
+S0 = 0  pois ele sai de Ribeirão preto.
+Velocidade constante de 90Km/h
+
+O tempo de chegada do carro terá 15 minutos a mais, por conta dos obstáculos o que dará a ele uma velocidade média de 76km/h
+
+A equação do veículo se torna:
+
+S =  0 + 76t
+S = 76t
+
+
+Equação para o caminhão:
+
+S0 = 125 pois ele sai de Barretos
+Velocidade constante de -80Km/h
+
+A equação do caminhão se torna:
+
+S = 125 - 80t
+
+
+Ponto de encontro:
+
+Scarro = Scaminhao
+
+76t = 125 - 80t
+
+156t = 125
+
+t = 0,8 horas 
+
+Local de encontro = 76*0,8 = 60,80Km
+
+
+
+
+** Considerando as posições dos veículos na estrada tendo como Ribeirão Preto como Referencial, é possível perceber que ao se cruzarem, os dois veículos estarão exatamente à mesma distância de Ribeirão Preto (60Km).**
+**Então independentemente da valocidade, dos pedágios, dos sentidos dos movimentos, assim que eles estiverem na mesma posição (se cruzando na estrada) a distância será a mesma, logo, nenhum dos dois veículos estará mais próximo.**
